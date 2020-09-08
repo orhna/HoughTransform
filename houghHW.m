@@ -37,7 +37,7 @@ axis on, axis normal, hold on;
 %setting threshold
 thold=ceil(0.3*max(hgh(:)));
 
-%finding maximas/peaks (might not be the most efficient way)
+%finding maximas/peaks 
 nOP=5; %-- number of peaks, depends on the picture
 peakIndexList=zeros(nOP,2);
 peakNumberList=zeros(nOP,1);
